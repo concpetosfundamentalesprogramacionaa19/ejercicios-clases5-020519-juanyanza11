@@ -14,6 +14,8 @@
 '''
 from misvariables import *
 
+
+
 edad = input("Ingrese su edad\n")
 edad = int(edad)
 seguro1= 100
@@ -21,21 +23,24 @@ seguro2=150
 valorc= 1200
 modalidad = input("Ingrese su modalidad\n")
 
+
+
+
 if (modalidad == "distancia") and (edad <=20):
 	costo = seguro1*10 + valorc*10
-	print("El costo de su matricula es: %d" % (costo))
+	print("El costo de su carrera es: %d" % (costo))
 else:
 	if (modalidad == "distancia") and (edad >20):
 		costo = seguro2*10 + valorc*10
-		print("El costo de su matricula es: %d" % (costo))
+		print("El costo de su carrera es: %d" % (costo))
 	else:
 		if (modalidad == "presencial") and (edad <=20):
 			costo = seguro1*8 + valorc*8
-			print("El costo de su matricula es: %d" % (costo))
+			print("El costo de su carrera es: %d" % (costo))
 		else:
 			if (modalidad == "presencial") and (edad > 20):
 				costo = seguro2*8 +valorc*8
-				print("El costo de su matricula es: %d" % (costo))
+				print("El costo de su carrera es: %d" % (costo))
 
 
 
