@@ -23,19 +23,19 @@ modalidad = input("Ingrese su modalidad\n")
 
 if (modalidad == "distancia") and (edad <=20):
 	costo = seguro1*10 + valorc*10
-	print("El costo de su matricula es: %s" % (costo))
+	print("El costo de su matricula es: %d" % (costo))
 else:
 	if (modalidad == "distancia") and (edad >20):
 		costo = seguro2*10 + valorc*10
-		print("El costo de su matricula es: %s" % (costo))
+		print("El costo de su matricula es: %d" % (costo))
 	else:
 		if (modalidad == "presencial") and (edad <=20):
 			costo = seguro1*8 + valorc*8
-			print("El costo de su matricula es: %s" % (costo))
+			print("El costo de su matricula es: %d" % (costo))
 		else:
 			if (modalidad == "presencial") and (edad > 20):
 				costo = seguro2*8 +valorc*8
-				print("El costo de su matricula es: %s" % (costo))
+				print("El costo de su matricula es: %d" % (costo))
 
 
 
