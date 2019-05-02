@@ -17,7 +17,7 @@ from misvariables import *
 edad = input("Ingrese su edad\n")
 edad = int(edad)
 seguro1= 100
-seguro2=200
+seguro2=150
 valorc= 1200
 modalidad = input("Ingrese su modalidad\n")
 
